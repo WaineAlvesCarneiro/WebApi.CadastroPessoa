@@ -1,0 +1,44 @@
+Post
+{
+  "nome": "Waine Alves Carneiro",
+  "cpfCnpj": "83225056120",
+  "celular": "062 99854-2002",
+  "telefone": "062 99854-2002",
+  "email": "carneiro@gmail.com",
+  "dtAniversario": "1976-07-09",
+  "ativo": true,
+  "tipoPessoa": 0,
+  "endereco": {
+    "cep": "74.843-140",
+    "logradouro": "Rua Macéio",
+    "numero": "S/N",
+    "bairro": "Amazônia",
+    "cidade": "Gyn",
+    "estado": "GO",
+    "complemento": "Qd 130 BL 09 APTO 302"
+  }
+}
+
+Put
+{
+  "id": 1,
+  "nome": "Waine Alves Carneiro Editado",
+  "cpfCnpj": "83225056120",
+  "celular": "062998542002",
+  "telefone": "062998542002",
+  "email": "carneiro@gmail.com",
+  "dtAniversario": "1976-07-09T00:00:00",
+  "ativo": true,
+  "tipoPessoa": 0,
+  "enderecoId": 1,
+  "endereco": {
+    "id": 1,
+    "cep": "74843140",
+    "logradouro": "Rua Macéio",
+    "numero": "S/N",
+    "bairro": "Amazônia",
+    "cidade": "Gyn",
+    "estado": "GO",
+    "complemento": "Qd 130 BL 09 APTO 302"
+  }
+}
